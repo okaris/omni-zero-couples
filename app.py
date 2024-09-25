@@ -121,7 +121,8 @@ def generate(
     if style_image is not None:
         style_image = load_and_resize_image(style_image, resolution, resolution)
     else:
-        raise ValueError("You must provide a style image")
+        style_image = base_image 
+        # raise ValueError("You must provide a style image")
     
     if identity_image_1 is not None:
         identity_image_1 = load_and_resize_image(identity_image_1, resolution, resolution)
