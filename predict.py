@@ -41,12 +41,6 @@ class Predictor(BasePredictor):
         identity_image_2 = Image.open(identity_image_2) if identity_image_2 else None
         depth_image = Image.open(depth_image) if depth_image else None
 
-        print("base_image", base_image)
-        print("style_image", style_image)
-        print("identity_image_1", identity_image_1)
-        print("identity_image_2", identity_image_2)
-        print("depth_image", depth_image)
-
         images = self.omni_zero.generate(
             seed=seed,
             prompt=prompt,
