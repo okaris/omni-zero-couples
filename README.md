@@ -14,6 +14,8 @@ license: gpl-3.0
 
 # Omni-Zero-Couples: A diffusion pipeline for zero-shot stylized couples portrait creation. 
 
+## Find Examples Below 👇
+
 ## Use Omni-Zero in HuggingFace Spaces ZeroGPU [https://huggingface.co/spaces/okaris/omni-zero-couples](https://huggingface.co/spaces/okaris/omni-zero-couples)
 ![Omni-Zero-Couples-Huggingface](https://github.com/user-attachments/assets/1f4b272b-db36-4355-91f0-b2c1ca310680)
 
@@ -33,6 +35,17 @@ cd omni-zero-couples
 pip install -r requirements.txt
 python demo.py
 ```
+
+### Examples
+
+![omnic-1](https://github.com/user-attachments/assets/00a71956-dae5-423a-a31d-231ee12811df)
+![omnic-2](https://github.com/user-attachments/assets/6120ecd5-ab69-42e4-8f76-e25d35e39839)
+![omnic-3](https://github.com/user-attachments/assets/e4d612e5-9967-4b29-9104-09abd133ccfb)
+![omnic-4](https://github.com/user-attachments/assets/84ea1a55-9bed-47a8-8bf0-bcd53a62ec4f)
+![omnic-5](https://github.com/user-attachments/assets/8fc3e5f4-bbc6-4f4e-8bab-27d730480d2b)
+![omnic-6](https://github.com/user-attachments/assets/a5b055d4-8131-4f1d-8802-bc1061cfe285)
+![omnic-7](https://github.com/user-attachments/assets/ef9d350e-2c3c-4990-a7a3-da7172cd02ec)
+
 
 ### Credits
 - Special thanks to my friend Misch Strotz, Co-Founder of [letz.ai](https://letz.ai) for providing compute for the research
