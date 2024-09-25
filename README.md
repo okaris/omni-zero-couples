@@ -19,7 +19,6 @@ license: gpl-3.0
 
 ## Run on Replicate [https://replicate.com/okaris/omni-zero-couples](https://replicate.com/okaris/omni-zero-couples)
 ![Omni-Zero-Couples-Replicate](https://github.com/user-attachments/assets/aeee3626-c343-4441-8e36-89896096910b)
-<img width="1799" alt="Screenshot 2024-09-25 at 17 18 45" src="https://github.com/user-attachments/assets/aeee3626-c343-4441-8e36-89896096910b">
 
 ### Multiple Identities and Styles
 ![Omni-Zero-Couples](https://github.com/user-attachments/assets/87218819-5114-49d8-a0f2-eadf4201736e)
