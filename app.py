@@ -257,8 +257,12 @@ with gr.Blocks() as demo:
                         identity_image_strength_2 = gr.Slider(label="Strength",step=0.01, minimum=0.0, maximum=1.0, value=1.0)
             with gr.Accordion("Advanced options", open=False):    
                 with gr.Row():
-                    style_image = gr.Image(label="Style Image")
-                    style_image_strength = gr.Slider(label="Style Strength",step=0.01, minimum=0.0, maximum=1.0, value=1.0)
+                    with gr.Column():
+                        style_image = gr.Image(label="Style Image")
+                        style_image_strength = gr.Slider(label="Style Strength",step=0.01, minimum=0.0, maximum=1.0, value=1.0)
+                    with gr.Column():
+                        depth_image = gr.Image(label="Depth Image")
+                        depth_image_strength = gr.Slider(label="Depth Strength",step=0.01, minimum=0.0, maximum=1.0, value=0.5)
                 with gr.Row():
                     seed = gr.Slider(label="Seed",step=1, minimum=0, maximum=10000000, value=42)
                     number_of_images = gr.Slider(label="Number of Outputs",step=1, minimum=1, maximum=4, value=1)
@@ -291,6 +295,8 @@ with gr.Blocks() as demo:
                     style_image_strength,
                     identity_image_strength,
                     identity_image_strength_2,
+                    depth_image,
+                    depth_image_strength,
                     mask_guidance_start,
                     mask_guidance_end,
                     ],
